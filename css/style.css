@@ -101,7 +101,7 @@ img{
 
    /* ================NAVBAR================ */
 nav {
-    background: red;
+    background: transparent;
     width: 100vw;
     height: 5rem;
     position: fixed;
@@ -114,4 +114,44 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+nav button{
+    display: none;
+}
+
+.nav__menu{
+    display: flex;
+    align-items: center;
+    gap:4rem;
+}
+
+.nav__menu a {
+    font-size: 0.9rem;   
+    transition: all 400ms ease;
+}
+
+.nav__menu a:hover{
+    color: var(--color-bg2);
+}
+
+/* ================Header================ */
+header {
+    position: relative;
+    top: 5rem;
+    overflow: hidden;
+    height: 70vh;
+    margin-bottom: 5rem;
+}
+
+.header__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 5rem;
+    height: 100%;
+}
+
+.header__left p {
+    margin: 1rem 0 2.4rem;
 }
