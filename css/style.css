@@ -405,5 +405,11 @@ footer ul li a:hover{
     }
 
     /*=============NavBar======*/
-    
+    nav button{
+        display: inline-block;
+        background: transparent;
+        font-size: 1.8rem;
+        color: var(--color-white);
+    }
+
  }
