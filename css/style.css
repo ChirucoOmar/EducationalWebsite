@@ -497,8 +497,8 @@ footer ul li a:hover{
 
     /*=============Courses======*/
     .courses {
- margin-top: 0;
-    }
+        margin-top: 0;
+        }
     .courses__container {
         grid-template-columns: 1fr 1fr;
     }
@@ -521,7 +521,7 @@ footer ul li a:hover{
 
  /*========================MEDIA QUERIES (MOBILE)=================*/
  @media screen and (max-width: 600px){
-    .continer {
+    .container {
         width: var(--container-width-sm);
     }
     /*=============NavBar======*/
@@ -564,7 +564,7 @@ footer ul li a:hover{
     /*==========testimonials========*/
     .testimonial__body{
         padding: 1.2rem;
- }
+        }
 
     /*=============Footer======*/
     .footer__container{
